@@ -33,5 +33,5 @@ a{
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    --webkit--font-snoothing: antialiased;
+    --webkit--font-smoothing: antialiased;
 }
