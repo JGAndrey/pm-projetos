@@ -1,0 +1,219 @@
+body{
+    font-family: 'lato', sans-serif;
+    -webkit-font-smoothing: antialiase;
+}
+header{
+    margin-bottom: -108px;
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao{
+    background-color: #ff3b80;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 36px;
+    box-shadow: 0 6px 0 #a32751;
+    border-radius: 3px;
+    text-align: center;
+}
+
+header nav ul{
+    padding-right: 80px;
+    margin: 0px;
+}
+header nav li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 80px;
+}
+header nav li:last-child{
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 10px 30px 10px;
+}
+header nav li a{
+color: #fff;
+text-decoration: none;
+font-size: 20px;
+}
+header h1{
+    margin: 0;
+    background-image: url(logoTitum.png);
+    background-repeat: no-repeat;
+    width: 177px;
+    height: 76px;
+}
+header h1 span{
+    visibility: hidden;
+}
+
+
+
+
+section#Topo {
+background-image: url(fundo.png);
+background-size: cover;
+height: 700px;
+}
+section#Topo .chamada{
+color: #fff;
+margin-top: 200px;
+text-align: center;
+}
+
+section#Topo .chamada h2 {
+    margin: 0px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+section#Topo .chamada p{
+    margin: 0px;
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+
+section#Conheca {
+padding: 70px;    
+}
+
+section#Conheca .texto{
+padding: 70px;
+padding-top: 30px;
+padding-right: 30px;
+}
+section#Conheca .texto h2{
+    font-size: 36px;
+}
+section#Conheca .texto p{
+    font-size: 24px;
+}
+section#Conheca .texto a{
+    width: 70%;
+    font-size: 30px;
+}
+
+
+
+
+
+section#depoimento {
+    background-color: #ebe7fb;
+    padding: 65px;
+    text-align: center;
+    border-top: 4px solid #511099;
+}
+
+section#depoimento p{
+    font-size: 24px;
+    width: 80%;
+    text-align: center;
+}
+
+section#depoimento .container{
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+section#convite {
+padding-top: 150px;
+padding-bottom: 150px;
+background-image: url("fundo-convite.png");
+background-size: cover;
+background-repeat: no-repeat;
+}
+section#convite form{
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    width: 60%;
+    border-radius: 3px;
+    display: flex;
+}
+section#convite input{
+    padding: 30px;
+    width: 75%;
+    background-color: transparent;
+    border: none;
+}
+section#convite button{
+    background-image: url("botao-convite.png");
+    background-color: transparent;
+    border: none;
+    width: 108px;
+    height: 43px;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+section#convite button span{
+visibility: hidden;
+}
+
+section#convite .container{
+    flex-direction: column;
+    align-items: center;
+}
+
+
+footer{
+    background-color: #2a0157;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 4px;
+    font-size: 18px;
+}
+footer .container{
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media (max-width: 600px){
+ header nav{
+       display: none;
+ }
+ header h1{
+     margin-left: 20px;
+ } 
+
+section#Topo{
+    padding: 20px;
+}
+section#Topo .container{
+    margin: 0px;
+    padding: 20px;
+    margin-left: 10px;
+}
+}
+
+section#Conheca .container{
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-left: 20px;
+}
+section#Conheca .container .texto{
+    padding: 10px;
+}
+section#Conheca .container .texto a{
+    width: 100%;
+}
+
+section#convite form{
+    display: block;
+    text-align: center;
+    width: 80%;
+}
+
+}
