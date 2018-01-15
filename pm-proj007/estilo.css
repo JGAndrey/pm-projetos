@@ -58,45 +58,45 @@ header h1 span{
 
 
 
-section#Topo {
+section#topo {
 background-image: url(fundo.png);
 background-size: cover;
 height: 700px;
 }
-section#Topo .chamada{
+section#topo .chamada{
 color: #fff;
 margin-top: 200px;
 text-align: center;
 }
 
-section#Topo .chamada h2 {
+section#topo .chamada h2 {
     margin: 0px;
     font-size: 40px;
     margin-bottom: 10px;
 }
-section#Topo .chamada p{
+section#topo .chamada p{
     margin: 0px;
     font-size: 33px;
     margin-bottom: 20px;
 }
 
 
-section#Conheca {
+section#conheca {
 padding: 70px;
 }
 
-section#Conheca .texto {
+section#conheca .texto {
 padding: 70px;
 padding-top: 30px;
 padding-right: 30px;
 }
-section#Conheca .texto h2 {
+section#conheca .texto h2 {
     font-size: 36px;
 }
-section#Conheca .texto p {
+section#conheca .texto p {
     font-size: 24px;
 }
-section#Conheca .texto a {
+section#conheca .texto a {
     width: 70%;
     font-size: 30px;
 }
@@ -188,22 +188,22 @@ footer .container{
      margin-left: 20px;
  } 
 
-section#Topo{
+section#topo{
     padding: 20px;
 }
-section#Topo .container{
+section#topo .container{
     margin: 0px;
     padding: 20px;
     margin-left: 10px;
 }
-section#Conheca .container {
+section#conheca .container {
     flex-direction: column;
     align-items: center;
 }
-section#Conheca .container .texto {
+section#conheca .container .texto {
     padding: 10px;
 }
-section#Conheca .container .texto a {
+section#conheca .container .texto a {
     width: 100%;
 }
 

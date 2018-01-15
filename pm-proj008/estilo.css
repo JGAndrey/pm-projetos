@@ -1,0 +1,13 @@
+body{
+    display: flex;
+}
+aside{
+    height: 1040px;
+    width: 200px;
+    background-color: #242536;
+
+}
+
+section#principal{
+    width: 100%;
+}
