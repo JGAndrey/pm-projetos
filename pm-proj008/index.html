@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="estilo.css">
+    <script src="https://use.fontawesome.com/ff6d4741cf.js"></script>
     <link rel="stylesheet" href="normalize.css">
     <title>Projeto 008</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
@@ -13,7 +14,7 @@
  section{
      height: 100px;
      width: 100px;
-     background-color: blue;
+     
  }
  </style>
 
@@ -21,9 +22,126 @@
 </head>
 
 <body>
-    <aside>
+<aside>
+    <h1><span>Nucleo</span></h1>
+    <nav>
+     <ul>
+       <li>
+        <a href="#">
+        <i class="fa fa-usd" aria-hidden="true"></i>
+        <span>Balance</span>
+        <small>$ 322</small>
+        </a>
+       </li>
+
+       <li>
+        <a href="#">
+        <i class="fa fa-area-chart" aria-hidden="true"></i>
+        <span>Dashboard</span>
+        </a>
+       </li>
+       
+       <li>
+         <a href="#">
+         <i class="fa fa-signal" aria-hidden="true"></i>
+         <span>Base Stations</span>
+         <small>12</small>
+         </a>
+         </li>
+
+         <li>
+        <a href="#">
+        <i class="fa fa-cubes" aria-hidden="true"></i>
+        <span>My Projects</span>
+        <small>4</small>
+        </a>
+         </li>
+
+         <li>
+        <a href="#">
+        <i class="fa fa-cog" aria-hidden="true"></i>
+        <span>Settings</span>
+        </a>
+        </li>
+        </ul>
+    </nav>
+
+</aside>
+
+<section id="principal">
+    <header>
+        <a href="#">
+            <img src="logo-adm.png">
+        </a>    
+    </header>
+    
+    <div class="modulo">
+     
+    <div class="abas">
+        <ul>
+            <li><a href="#">ACCOUNT</a></li>
+            <li><a href="#">BILLING</a></li>
+        </ul>
+    </div>
+    
+    <div class="container">
+    <div class="canvas">
+        <form action="">
+            <h2>Personal information</h2>
+            <ul>
+            <li class="ok">
+                <input type="text" placeholder="Email">
+                <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id nisl eget nunc molestie maximus.</small>
+            </li>
+            <li>
+                <input type="text" placeholder="First name">
+            </li>
+            <li>
+                <input type="text" placeholder="Last name">
+            </li>
+            <li>
+                <select>
+                    <option value="Country">Country</option>
+                    <option value="Country">New Zealand</option>
+                </select>
+            </li>
+            <li class="ok">
+                <input type="text" placeholder="Phone">
+            </li>
+            </ul>
+            <h2>Password</h2>
+            <ul>
+                <li>
+                    <input type="text" placeholder="Password">
+                </li>
+                <li>
+                    <input type="text" placeholder="New password">
+                </li>
+                <li>
+                    <input type="text" placeholder="New password again">
+                </li>
+            </ul>
+            <h2>Anythings</h2>
+            <ul class="confirmacoes">
+                <li>
+                    <input type="checkbox">
+                    <label>
+                        Güncelleme ve yenilikleri mail olarak almak istiyorum.
+                    </label>
+                </li>
+                <li>
+                    <input type="checkbox">
+                    <label>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id nisl eget nunc molestie maximus.
+                    </label>
+                </li>
+            </ul>
+            <button>Save</button>
+        </form>
+    </div>
+    </div>
         
-    </aside>
-    <section id="principal"></section>
+    </div>
+    </section>
 </body>
 </html>
