@@ -154,6 +154,7 @@ section#convite button{
     background-repeat: no-repeat;
     margin-top: 15px;
     margin-right: 20px;
+    cursor: pointer;
 }
 
 section#convite button span{

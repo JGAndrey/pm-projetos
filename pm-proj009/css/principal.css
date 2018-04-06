@@ -1,0 +1,32 @@
+@import url(header.css);
+@import url(cartao.css);
+@import url(resumos.css);
+
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url(../images/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'muliregular';
+    font-size: 12px;
+}
+
+h1, h2, h3, ul{
+    margin: 0;
+    padding: 0;
+}
+.checkout main {
+  display: flex;
+}
+.checkout {
+    width: 680px;
+    height: 558px;
+    background-color: white;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0,27);
+}
+
+
+
