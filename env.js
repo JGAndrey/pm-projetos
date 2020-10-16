@@ -1,0 +1,1 @@
+window._env = {"NODE_ENV":"development","REACT_APP_API_URL":"https://api.creepts.io"};

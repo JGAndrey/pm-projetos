@@ -1,0 +1,622 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="csrf-token" content="MsDoZSouDZ8aKztvDnHa5qiyIhX3sN6P4IRYqqj7">
+<title>Priver do Atalaia - Venha Para Melhor Estadia Em Salinas-PA</title>
+<meta name="keywords" content="Hotel, Salinas, Salinopolis">
+<meta name="description" content="">
+<meta name="theme-color" content="#FFCC29">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:url" content="">
+<meta property="og:title" content="Hotel Solar - Venha Para Melhor Estadia Em Salinas-PA">
+<meta property="og:site_name" content="Hotel Solar">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://hotelsolar.tur.br/img/solar-facebook.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="628">
+<meta property="og:type" content="website">
+<link rel="icon" href="http://hotelsolar.tur.br/img/favicon.png" sizes="32x32"/>
+
+
+<style type="text/css">
+    @font-face {
+        font-family: 'lactosa';
+        
+        src: url('http://hotelsolar.tur.br/fonts/lactosa-webfont.eot');
+        src: url('http://hotelsolar.tur.br/fonts/lactosa-webfont.eot?#iefix') format('embedded-opentype'),
+        url('http://hotelsolar.tur.br/fonts/lactosa-webfont.woff2') format('woff2'),
+        url('http://hotelsolar.tur.br/fonts/lactosa-webfont.woff') format('woff'),
+        url('http://hotelsolar.tur.br/fonts/lactosa-webfont.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+
+
+    }
+
+    .preloader {
+        animation-duration: 1s;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        bottom: 0;
+        left: 0;
+        position: fixed;
+        z-index: 9999999999;
+        transition: 0.5s;
+        transition-delay: 1s;
+        transition-timing-function: ease-in;
+    }
+
+    .preloader {
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+        animation-duration: 1s;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        bottom: 0;
+        left: 0;
+        position: fixed;
+        z-index: 9999999999;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        transition: .5s;
+        -webkit-transition-delay: 1s;
+        -moz-transition-delay: 1s;
+        transition-delay: 1s;
+        -webkit-transition-timing-function: ease-in;
+        -moz-transition-timing-function: ease-in;
+        transition-timing-function: ease-in;
+    }
+
+    .animated {
+        -webkit-animation-duration: .5s;
+        -moz-animation-duration: .5s;
+        animation-duration: .5s;
+        -webkit-animation-fill-mode: both;
+        -moz-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+
+    .loaded .preloader {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .preloader .loading-element {
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+        animation-duration: 1s;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 9999;
+        width: 130px;
+        height: 130px;
+        margin: -65px;
+        background: url("http://hotelsolar.tur.br/img/loading.gif") center no-repeat;
+    }
+</style>
+
+<link href="http://hotelsolar.tur.br/css/app.css" rel="stylesheet" type="text/css">
+
+<link href="https://vjs.zencdn.net/7.3.0/video-js.css" rel="stylesheet">
+
+<!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+<script src="https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
+
+
+
+</head>
+<body>
+<div class="preloader animated" style="">
+    <div class="loading-element animated"></div>
+</div>
+<span class="popup-shadow hotelsolar js-close-popup"></span>
+<section class="register-popup hotelsolar ">
+    <h3 class="popup-title">Cadastre seu e-mail e ganhe desconto</h3>
+    <button class="btn btn-close-popup js-close-popup">Fechar</button>
+    <form id="form-get-news-popup" action="https://www.rdstation.com.br/api/1.3/conversions" method="post" class="js-get-news">
+        <input name="token_rdstation" type="hidden" value="4e70e9bcd60930ef7cde2241a25cf1a4">
+        <input name="identificador" type="hidden" value="site-hotel-solar">
+        <legend class="form-text">Além disso, você irá receber novidades e promoções exclusivas!</legend>
+        <label class="full">
+            <span>Primeiro nome</span>
+            <input class="form-control" type="text" name="name" required>
+        </label>
+        <label class="full">
+            <span>E-mail</span>
+            <input class="form-control" type="email" name="email" required>
+        </label>
+        <button class="btn btn-blue btn-pop">Cadastrar</button>
+    </form>
+    <div class="feedbacks">
+        <p class="invalid">Verifique o preenchimento dos campos e tente novamente.</p>
+        <p class="success">Cadastro realizado com sucesso.</p>
+    </div>
+</section>
+<header>
+    <div class="hs__header ">
+    <a id="btn-mobile">
+        <span></span>
+        <span></span>
+        <span></span>
+    </a>
+    <div id="menu-active"
+         class="hs__header-menu  hs__header-other">
+        <a class="hs__navbar-logo hs__navbar-logo-orange" href="http://hotelsolar.tur.br"
+           title="Hotel Solar"></a>
+        <nav class="hs__navbar container-fluid" id="hs__navbar" itemscope="itemscope"
+             itemtype="http://schema.org/SiteNavigationElement">
+            <ul class="hs__navbar-itens  ">
+                <a href="http://hotelsolar.tur.br" class="active">HOME</a>
+                <a href="http://hotelsolar.tur.br/o-hotel" class="">O HOTEL</a>
+                <a href="http://hotelsolar.tur.br/amor-de-verao" class="">AMOR DE VERÃO</a>
+                <a href="http://hotelsolar.tur.br/acomodacoes"
+                   class="">ACOMODAÇÕES</a>
+                <a href="http://hotelsolar.tur.br/clubinho"
+                   class="">CLUBINHO</a>
+                <a href="http://hotelsolar.tur.br/diversao"
+                   class="">DIVERSÃO</a>
+                <a href="http://hotelsolar.tur.br/pacotes" class="">PACOTES</a>
+                <a href="https://hotelsolar.tur.br/blog/">BLOG</a>
+                <a href="http://hotelsolar.tur.br/contato" class="">CONTATO</a>
+                <span class="over-menu"></span>
+            </ul>
+        </nav>
+        <a class="btn__cta-nav" href="http://hotelsolar.tur.br/pacotes" style="display: none;">PROMOÇÕES</a>
+    </div>
+    <!---->
+</div>
+<section class="hs__form-booking ">
+    <div class="hs__form-booking-center">
+        <div class="hs__form-booking-text">
+            <span>Efetuar sua</span>
+            <span>reserva</span>
+        </div>
+        <form action="" method="get" id="booking-home">
+            <input type="hidden" id="dataE">
+            <input type="hidden" id="dataS">
+            <input type="text" class="form-control" id="dataEntrada" placeholder="Entrada" required>
+            <input type="text" class="form-control" id="dataSaida" placeholder="Saída" required>
+            <button class="btn btn-blue" type="submit">CONSULTAR</button>
+        </form>
+        <a class="btn btn-blue btn-mobile-form" href="https://hotelsolar.bukly.com/pt-br/hotel/">EFETUAR SUA RESERVA</a>
+    </div>
+</section>
+</header>
+
+    <section class="hs__slider">
+        <video autoplay muted loop>
+            
+            <source src="http://hotelsolar.tur.br/videos/topo-home.mp4" type="video/mp4">
+        </video>
+    </section>
+    <section class="hs__pacotes wow fadeIn" data-wow-delay="0.3s">
+        <h2 class="hs__pacotes-title">Confira os <strong>Pacotes</strong></h2>
+        <div class="container-fluid">
+            <div class="carousel-wrap">
+                <div class="owl-carousel owl-carousel-pacotes owl-theme">
+                                            <section class="hs__pacotes-item item">
+                            <div class="hs__pacotes-anchor">
+                                <figure>
+                                    <img class="hs__pacotes-img" src="http://hotelsolar.tur.br/images/1547237198OSTRABEER (1).jpg">
+                                </figure>
+                                <div class="hs__pacotes-item-bar">
+                                    <h2 class="hs__pacotes-item-bar-title" style="text-transform: uppercase">
+                                        OSTRA BEER FESTIVAL 2019
+                                    </h2>
+                                    <p class="hs__pacotes-item-bar-description">PACOTE A PARTIR DE</p>
+                                    <p class="hs__pacotes-item-bar-description-price" style=""><img
+                                            src="http://hotelsolar.tur.br/img/moeda.png">R$ 620,00
+                                    </p>
+                                    <p class="hs__pacotes-item-bar-description-apt">APTº CASAL</p>
+                                </div>
+
+                                <div class="hs__pacotes-item-description">
+                                    <div class="hs__pacotes-item-description-item-frase"
+                                         style="">
+                                        <p>Pacote duas diárias 14 à 16 de FEV.</p>
+                                    </div>
+                                    <div class="hs__pacotes-item-description-item" title="Café da Manhã"><i><img
+                                                src="http://hotelsolar.tur.br/img/cf-icon.png"></i><span>CAFÉ<br> DA MANHÃ</span>
+                                    </div>
+                                    <div class="hs__pacotes-item-description-item" title="Criança 6 anos não paga">
+                                        <i><img src="http://hotelsolar.tur.br/img/clubinho-icon.png"></i><span>CRIANÇA 6 ANOS <br>NÃO PAGA</span>
+                                    </div>
+                                    <div class="hs__pacotes-item-description-item" title="Cartão de Crédito"><i><img
+                                                src="http://hotelsolar.tur.br/img/card-icon.png"></i><span>3X NO CARTÃO <br><b
+                                                style="visibility: hidden">P</b></span></div>
+                                    <div class="hs__pacotes-item-description-item-btn">
+                                        <a class="btn btn-blue"
+                                           href="https://hotelsolar.bukly.com/pt-br/hotel/2019-02-15/2019-02-17/"
+                                           style=""
+                                           target="_blank">RESERVAR</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                                            <section class="hs__pacotes-item item">
+                            <div class="hs__pacotes-anchor">
+                                <figure>
+                                    <img class="hs__pacotes-img" src="http://hotelsolar.tur.br/images/15491126701546892217favereiro01.jpg">
+                                </figure>
+                                <div class="hs__pacotes-item-bar">
+                                    <h2 class="hs__pacotes-item-bar-title" style="text-transform: uppercase">
+                                        CARNAVAL 2019
+                                    </h2>
+                                    <p class="hs__pacotes-item-bar-description">PACOTE A PARTIR DE</p>
+                                    <p class="hs__pacotes-item-bar-description-price" style=""><img
+                                            src="http://hotelsolar.tur.br/img/moeda.png">R$ 2.100,00
+                                    </p>
+                                    <p class="hs__pacotes-item-bar-description-apt">APTº CASAL</p>
+                                </div>
+
+                                <div class="hs__pacotes-item-description">
+                                    <div class="hs__pacotes-item-description-item-frase"
+                                         style="">
+                                        <p>02 À 06 DE MARÇO - INCLUSO FEIJOADA</p>
+                                    </div>
+                                    <div class="hs__pacotes-item-description-item" title="Café da Manhã"><i><img
+                                                src="http://hotelsolar.tur.br/img/cf-icon.png"></i><span>CAFÉ<br> DA MANHÃ</span>
+                                    </div>
+                                    <div class="hs__pacotes-item-description-item" title="Criança 6 anos não paga">
+                                        <i><img src="http://hotelsolar.tur.br/img/clubinho-icon.png"></i><span>CRIANÇA 6 ANOS <br>NÃO PAGA</span>
+                                    </div>
+                                    <div class="hs__pacotes-item-description-item" title="Cartão de Crédito"><i><img
+                                                src="http://hotelsolar.tur.br/img/card-icon.png"></i><span>3X NO CARTÃO <br><b
+                                                style="visibility: hidden">P</b></span></div>
+                                    <div class="hs__pacotes-item-description-item-btn">
+                                        <a class="btn btn-blue"
+                                           href="https://hotelsolar.bukly.com/pt-br/hotel/2019-03-02/2019-03-06/"
+                                           style=""
+                                           target="_blank">RESERVAR</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                                            <section class="hs__pacotes-item item">
+                            <div class="hs__pacotes-anchor">
+                                <figure>
+                                    <img class="hs__pacotes-img" src="http://hotelsolar.tur.br/images/15491123811545139645SEMANA-SANTA2019.jpg">
+                                </figure>
+                                <div class="hs__pacotes-item-bar">
+                                    <h2 class="hs__pacotes-item-bar-title" style="text-transform: uppercase">
+                                        SEMANA SANTA 2019
+                                    </h2>
+                                    <p class="hs__pacotes-item-bar-description">PACOTE A PARTIR DE</p>
+                                    <p class="hs__pacotes-item-bar-description-price" style=""><img
+                                            src="http://hotelsolar.tur.br/img/moeda.png">R$ 2.100,00
+                                    </p>
+                                    <p class="hs__pacotes-item-bar-description-apt">APTº CASAL</p>
+                                </div>
+
+                                <div class="hs__pacotes-item-description">
+                                    <div class="hs__pacotes-item-description-item-frase"
+                                         style="">
+                                        <p>18 À 21 DE ABRIL</p>
+                                    </div>
+                                    <div class="hs__pacotes-item-description-item" title="Café da Manhã"><i><img
+                                                src="http://hotelsolar.tur.br/img/cf-icon.png"></i><span>CAFÉ<br> DA MANHÃ</span>
+                                    </div>
+                                    <div class="hs__pacotes-item-description-item" title="Criança 6 anos não paga">
+                                        <i><img src="http://hotelsolar.tur.br/img/clubinho-icon.png"></i><span>CRIANÇA 6 ANOS <br>NÃO PAGA</span>
+                                    </div>
+                                    <div class="hs__pacotes-item-description-item" title="Cartão de Crédito"><i><img
+                                                src="http://hotelsolar.tur.br/img/card-icon.png"></i><span>3X NO CARTÃO <br><b
+                                                style="visibility: hidden">P</b></span></div>
+                                    <div class="hs__pacotes-item-description-item-btn">
+                                        <a class="btn btn-blue"
+                                           href="https://hotelsolar.bukly.com/pt-br/hotel/2019-04-18/2019-04-21/"
+                                           style=""
+                                           target="_blank">RESERVAR</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                                    </div>
+                <a class="hs__pacotes-more" href="http://hotelsolar.tur.br/pacotes">MAIS</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="hs__cta-one wow fadeIn" data-wow-delay="0.3s">
+    <div class="container-fluid hs__cta-one-space">
+        <div class=" hs__cta-one-center">
+            <i><img src="http://hotelsolar.tur.br/img/hs-app-icon.png"></i>
+            <span>APP INTERATIVO EM PDF TUDO SOBRE SALINAS <br> NA PALMA DA SUA MÃO</span>
+            <a href="https://conteudo.hotelsolar.tur.br/mapa-interativo-salinopolis-2018" class="btn btn-blue" target="_blank">BAIXAR</a>
+        </div>
+    </div>
+</section>
+
+    <section class="hs__atividades wow fadeIn" data-wow-delay="0.3s">
+        <h2 class="hs__depoimentos-title">ATIVIDADES</h2>
+        <div class="container-fluid">
+            <div class="carousel-wrap">
+                <div class="owl-carousel owl-carousel-atividades owl-theme">
+                    <section class="hs__atividades-container item">
+                        <div class="hs__atividades-item">
+                            <div class="hs__atividades-anchor">
+                                <figure>
+                                    <img class="hs__atividades-img" src="http://hotelsolar.tur.br/img/atividades-01-hs.jpg">
+                                </figure>
+                                
+                                
+                                
+                            </div>
+                        </div>
+                        <footer class="hs__atividades-item-footer">
+                            <div class="hs__atividades-item-title">
+                                <div class="hs__atividades-itens">
+                                    <h3>Diversão</h3>
+                                </div>
+                            </div>
+                        </footer>
+                    </section>
+                    <section class="hs__atividades-container item">
+                        <div class="hs__atividades-item item">
+                            <div class="hs__atividades-anchor">
+                                <figure>
+                                    <img class="hs__atividades-img" src="http://hotelsolar.tur.br/img/atividades-02-hs.jpg">
+                                </figure>
+                                
+                                
+                                
+                            </div>
+                        </div>
+                        <footer class="hs__atividades-item-footer">
+                            <div class="hs__atividades-item-title">
+                                <div class="hs__atividades-itens">
+                                    <h3>Clubinho</h3>
+                                </div>
+                            </div>
+                        </footer>
+                    </section>
+                    <section class="hs__atividades-container item">
+                        <div class="hs__atividades-item">
+                            <div class="hs__atividades-anchor">
+                                <figure>
+                                    <img class="hs__atividades-img" src="http://hotelsolar.tur.br/img/praia-d.jpg">
+                                </figure>
+                                
+                                
+                                
+                            </div>
+                        </div>
+                        <footer class="hs__atividades-item-footer">
+                            <div class="hs__atividades-item-title">
+                                <div class="hs__atividades-itens">
+                                    <h3>Praia</h3>
+                                </div>
+                            </div>
+                        </footer>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hs__cta-two wow fadeIn" data-wow-delay="0.3s">
+    <div class="container-fluid hs__cta-two-space">
+        <div class="hs__cta-two-center">
+            <div class="hs__cta-two-center-mobile">
+            <i><img src="http://hotelsolar.tur.br/img/hs-email-icon.png"></i>
+            <span>NOVIDADES E<br> PROMOÇÕES</span>
+            </div>
+            <form action="https://www.rdstation.com.br/api/1.3/conversions" method="post" class="hs__cta-two-form js-get-news" id="frm-get-news-inline" novalidate="novalidate" >
+                <input name="token_rdstation" type="hidden" value="4e70e9bcd60930ef7cde2241a25cf1a4">
+                <input name="identificador" type="hidden" value="newsletter-site-hotel-solar">
+                <input type="text" name="nome" id="nome" class="form-control" placeholder="Nome" required>
+                <input type="text" name="email" id="email" class="form-control" placeholder="Email" required>
+                <button class="btn btn-blue">CADASTRE-SE</button>
+            </form>
+            <div class="news_subscript_feedback success" style="display: none;">Cadastro realizado com sucesso.</div>
+            <div class="news_subscript_feedback error" style="display: none;">Verifique o preenchimento dos campos e tente novamente.</div>
+        </div>
+    </div>
+</section>
+    <section class="video-full hs__video-one wow fadeIn" data-wow-delay="0.3s">
+        <a href="#" title="Assistir o vídeo" class="video-play" id="js-btn-play"></a>
+        <figure class="video-bg">
+            <img src="http://hotelsolar.tur.br/img/background-video-one.jpg" alt="Vídeo-1">
+        </figure>
+
+        <iframe id="video" class="video" src="https://www.youtube.com/embed/3FvIGfmtypE?rel=0&controls=0&showinfo=0"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </section>
+    <section class="hs__socials-icon wow fadeIn" data-wow-delay="0.3s">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 hs__socials-icons-align">
+                    <a href="https://www.facebook.com/hotelsolarsalinas" title="Facebook" class="hs__socials-icon-link"><i
+                            class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com/hotelsolar/" title="Instagram" class="hs__socials-icon-link"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UC_AJlRcKcGvQ1uM_kD8O1ZQ" title="Youtube"
+                       class="hs__socials-icon-link"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div class="col-md-8">
+                    <h2 class="hs__socials-icon-title">CURTA, COMPARTILHE E COMENTE</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="video-full-two hs__video-two wow fadeIn" data-wow-delay="0.3s">
+        <a href="#" title="Assistir o vídeo" class="video-two video-play-two" id="js-btn-play-two"></a>
+        <figure class="video-bg-two">
+            <img src="http://hotelsolar.tur.br/img/video-two.jpg" alt="Vídeo-2">
+        </figure>
+
+        <iframe id="video-two" class="video" src="https://www.youtube.com/embed/uk5556o9bCY?rel=0&controls=0&showinfo=0"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+    </section>
+    <section class="hs__depoimentos wow fadeIn" data-wow-delay="0.3s">
+        <h2 class="hs__depoimentos-title">DEPOIMENTOS</h2>
+        <section class="hs__depoimentos-one">
+            <div class="container-fluid hs__depoimentos-space">
+                <div class="hs__depoimentos-center">
+                    <i><img src="http://hotelsolar.tur.br/img/hs-app-icon.png"></i>
+                    <span>APP INTERATIVO EM PDF TUDO SOBRE SALINAS <br> NA PALMA DA SUA MÃO</span>
+                    <a href="https://conteudo.hotelsolar.tur.br/mapa-interativo-salinopolis-2018" class="btn btn-blue">BAIXAR</a>
+                </div>
+            </div>
+        </section>
+        <section class="hs__depoimentos-owl wow fadeIn" data-wow-delay="0.3s">
+            <div class="container">
+                <div class="carousel-wrap">
+                    <div class="owl-carousel owl-carousel-depoimentos slideD owl-theme">
+                        <div class="item">
+                            <p class="hs__depoimentos-owl-depoimento">"O hotel Solar é uma grande família. Um lugar
+                                maravilhoso para encontrar amigos e viver
+                                o melhor de Salinas. É mais que um hotel, é um local pra se apaixonar."</p>
+                            <p class="hs__depoimentos-owl-nome">Guaranny Jr.</p>
+                            <p class="hs__depoimentos-owl-cargo">Professor e Gestor de Marketing</p>
+                        </div>
+                        <div class="item">
+                            <p class="hs__depoimentos-owl-depoimento">"Conforto, estrutura e comodidade, é isso que me
+                                faz voltar sempre ao Solar. Lá eu encontro o ambiente perfeito para meu bem estar e de
+                                minha família."</p>
+                            <p class="hs__depoimentos-owl-nome">Marco Leão</p>
+                            <p class="hs__depoimentos-owl-cargo">Empresário</p>
+                        </div>
+                        <div class="item">
+                            <p class="hs__depoimentos-owl-depoimento">"Salinas tem a cara do Hotel Solar. Sabe, não sou
+                                muito fã de "muvuca", no Hotel Solar eu encontro tranquilidade que preciso pra renovar
+                                as forças."</p>
+                            <p class="hs__depoimentos-owl-nome">Ronan Pinho</p>
+                            <p class="hs__depoimentos-owl-cargo">Empresário</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="hs__diversao">
+        <h2 class="hs__diversao-title">DIVERSÃO</h2>
+        <section class="hs__diversao-owl wow fadeIn" data-wow-delay="0.3s">
+            <div class="carousel-wrap">
+                <div class="owl-carousel owl-carousel-diversoes owl-theme">
+                    <div class="item hs__diversao-owl_1" href="#">
+                        <a>
+                            <img src="http://hotelsolar.tur.br/img/ds_stand.png">
+                            <div class="item_background_1">
+                                <span class="hs__diversao-owl-nome">Stand up Paddle</span>
+                                <p>Duração: 30 min. R$ 30<br>1 hora R$ 50</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item hs__diversao-owl_2">
+                        <a>
+                            <img src="http://hotelsolar.tur.br/img/ds_caiaque.png">
+                            <div class="item_background_2">
+                                <span class="hs__diversao-owl-nome">Caiaque</span>
+                                <p>Duração: 30 min. R$ 30<br>1 hora R$ 50</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item hs__diversao-owl_3">
+                        <a>
+                            <img src="http://hotelsolar.tur.br/img/ds_banana-boat.png">
+                            <div class="item_background_3">
+                                <span class="hs__diversao-owl-nome">Banana Boat</span>
+                                <p>Duração: 30 min. R$ 30<br>1 hora R$ 50</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item hs__diversao-owl_4">
+                        <a>
+                            <img src="http://hotelsolar.tur.br/img/ds_barco.png">
+                            <div class="item_background_4">
+                                <span class="hs__diversao-owl-nome">Passeio de Barco</span>
+                                <p>Duração: 1 hora R$ 50</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container hs__diversao-paragrafo wow fadeIn" data-wow-delay="0.3s">
+                <p>Uma mar de diversão espera por você. Venha e traga toda a família.</p>
+            </div>
+            <a class="hs__pacotes-more" href="http://hotelsolar.tur.br/diversao">MAIS</a>
+        </section>
+    </section>
+    <section class="trip-advisor">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="logo-hotel-r wow fadeInUp" data-wow-offset="0"  style="visibility: visible">
+                    <img
+                        src="http://hotelsolar.tur.br/img/SOLARLOGOtrip.png"
+                        alt="Logo Hotel Solar" style="width: 100%; visibility: visible">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <a style="visibility: visible;" href="https://www.tripadvisor.com.br/Hotel_Review-g1872644-d3168959-Reviews-Hotel_Solar-Salinopolis_State_of_Para.html"><img src="http://hotelsolar.tur.br/img/TripAdvisor-logo.png" class="wow fadeInUp"  data-wow-delay="0.3s" data-wow-offset="-100" style="visibility: visible!important;"></a>
+            </div>
+            <div class="col-md-4">
+                <section class="avaliacao wow fadeInUp" data-wow-delay="0.5s" data-wow-offset="-100" style="visibility: visible;">
+                    <div class="bar">
+                        <div class="mask-bar" style="width: 89%"></div>
+                    </div>
+                    <p><span class="count">155</span> Avaliações</p>
+                </section>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<footer>
+    <section class="hs__socials-footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 hs__socials-footer-icons">
+                <a href="https://www.facebook.com/hotelsolarsalinas" title="Facebook" class="hs__socials-footer-link"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/hotelsolar/" title="Instagram" class="hs__socials-footer-link"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UC_AJlRcKcGvQ1uM_kD8O1ZQ" title="Youtube" class="hs__socials-footer-link"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="col-md-4">
+                <p class="hs__footer-sub-text">Hotel Solar - Todos os direitos reservados <br>
+                    Av. Atlântica, 634-672, Salinópolis - PA, 68721-000 <br>Desenvolvido por Jimmy Kedlyn - Design por Marco Leão </p>
+            </div>
+            <div class="col-md-4 hs__socials-footer-icons">
+                <a id="return-to-top" class="hs__footer-sub-btn"><i class="fas fa-arrow-up"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="http://hotelsolar.tur.br/js/jquery-3.3.1.min.js" type="text/javascript"></script>
+<script src="http://hotelsolar.tur.br/js/app.js" type="text/javascript"></script>
+<script src="http://hotelsolar.tur.br/js/wow.min.js" type="text/javascript"></script>
+<script src="http://hotelsolar.tur.br/js/owl.carousel.min.js" type="text/javascript"></script>
+<script src="http://hotelsolar.tur.br/js/picker.js" type="text/javascript"></script>
+<script src="http://hotelsolar.tur.br/js/picker.date.js" type="text/javascript"></script>
+<script src="http://hotelsolar.tur.br/js/jquery.cookie.min.js" type="text/javascript"></script>
+<script src="http://hotelsolar.tur.br/js/jquery.validate.min.js" type="text/javascript"></script>
+<script src="https://vjs.zencdn.net/7.3.0/video.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+
+</footer>
+
+</body>
+</html>
